@@ -1,5 +1,6 @@
-pip install twint
-pip install textblob
-pip install nltk
-conda install -c anaconda nltk 
-pip install wordcloud
+twint
+textblob
+nltk
+wordcloud
+demoji
+pyspellchecker 
