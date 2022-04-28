@@ -20,10 +20,10 @@ The main goal of this project is to scrape data from Twitter for a specific bran
 
 ## Requirements
 Here is a list of some of  the used libraries:
-a.	d2l: for building the sentiment analysis model.
-b.	demoji: for replacing the emojis in tweets with their description.
-c.	snscrape: a library to scrap tweets.
-d.	Nltk: for natural language processing.
+1.	d2l: for building the sentiment analysis model.
+2.	demoji: for replacing the emojis in tweets with their description.
+3.	snscrape: a library to scrap tweets.
+4.	Nltk: for natural language processing.
 
 ---
 ## Social Media Monitoring Steps
