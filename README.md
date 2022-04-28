@@ -4,11 +4,17 @@ Social Media Monitoring /Twitter/ in python language.
 --- 
 
 ## Index
-1. [About the project](#About the project)
+1. [About the project](#about-the-project)
 2. [Requirements](#requirements)
 3. [Social Media Monitoring Steps](#semantic-search-engine-steps)
 4. [Data Processing](#data-processing)
 5. [Sentiment Analysis with RNN](#sentiment-analysis-with-rnn)
+
+---
+
+## About the project 
+The main goal of this project is to scrape data from Twitter for a specific brand or product and try to classify the tweets sentimatically as negative or positive tweets.
+
 
 ---
 
@@ -20,13 +26,6 @@ c.	snscrape: a library to scrap tweets.
 d.	Nltk: for natural language processing.
 
 ---
-
-## About the project 
-The main goal of this project is to scrape data from Twitter for a specific brand or product and try to classify the tweets sentimatically as negative or positive tweets.
-
-
----
-
 ## Social Media Monitoring Steps
 In the following figure we can see the main steps of the project:
 First of all we should select a string to search for, then we need to scrape Twitter for posts containing that string.
