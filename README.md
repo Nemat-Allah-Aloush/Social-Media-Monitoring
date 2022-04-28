@@ -49,12 +49,13 @@ After scrapping data from Twitter. The following preprocessing pipeline will be 
   - Remove all the occurrences of the word that we have searched for. 
   - The names will be kept and other tokens will be transformed to their lemmas.
 The Data processing pipeline is shown in the following figure:
-![image](https://user-images.githubusercontent.com/47036654/165838937-a67ec4e4-4e8e-4a26-b93d-bea2aa05c343.png)
+![image](https://github.com/Nemat-Allah-Aloush/Social-Media-Monitoring/blob/main/imgs/data_processing.png)
 
 ---
 
 ## Sentiment Analysis with RNN
 The idea is to represent each token using the pretrained GloVe model, and feed these token representations into a multilayer bidirectional RNN to obtain the 
 text sequence representation, which will be transformed into sentiment analysis outputs. 
+
 Inspired from: https://d2l.ai/chapter_natural-language-processing-applications/sentiment-analysis-rnn.html
 
